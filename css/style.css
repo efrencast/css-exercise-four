@@ -1,4 +1,86 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
 body {
   background-color: #dadada;
   font-size: 10px;
+}
+
+.container {
+  margin: 20px auto;
+  width: 100%;
+}
+
+.preview {
+  float: left;
+  margin: 2% 0;
+  width: 100%;
+  padding: 150px 25px;
+}
+
+/* Images */
+.baku {
+  background-image: url("../images/baku.jpg");
+  background-size: cover;
+  background-repeat: ro no-repeat;
+  background-position: center;
+}
+
+.london {
+  background-image: url("../images/london.png");
+  background-size: cover;
+  background-repeat: repeat;
+  background-position: center;
+}
+
+.madrid {
+  background-image: url("../images/madrid.jpg");
+  background-size: cover;
+  background-repeat: repeat;
+  background-position: center;
+}
+
+.rome {
+  background: url("../images/rome.jpg");
+  background-size: cover;
+  background-repeat: repeat;
+  background-position: center;
+}
+/* end of images */
+
+.container h1 {
+  /* padding: 40px 0px; */
+  margin: 40px 0;
+  /* width: 100%; */
+  font-family: sans-serif;
+  color: #000000;
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.15rem;
+  text-align: center;
+}
+
+.preview h1 {
+  text-align: left;
+  margin: 2px;
+  color: red;
+}
+
+/* 2-column responsive */
+@media screen and (min-width: 575px) {
+  .preview {
+    background-color: green;
+    margin: 1%;
+    width: 48%;
+  }
+}
+
+/* 4-column responsive */
+@media screen and (min-width: 1215px) {
+  .preview {
+    background-color: blue;
+    margin: 1%;
+    width: 21%;
+  }
 }
