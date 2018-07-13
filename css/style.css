@@ -16,7 +16,10 @@ body {
   float: left;
   margin: 2% 0;
   width: 100%;
-  padding: 150px 25px;
+  padding-top: 50px;
+  padding-bottom: 250px;
+  padding-left: 25px;
+  padding-right: 25px;
 }
 
 /* Images */
@@ -50,9 +53,7 @@ body {
 /* end of images */
 
 .container h1 {
-  /* padding: 40px 0px; */
   margin: 40px 0;
-  /* width: 100%; */
   font-family: sans-serif;
   color: #000000;
   font-size: 1rem;
@@ -62,9 +63,13 @@ body {
 }
 
 .preview h1 {
+  font-family: serif;
+  font-weight: bold;
   text-align: left;
   margin: 2px;
-  color: red;
+  color: #000000;
+  text-transform: capitalize;
+  font-size: 1.2rem;
 }
 
 /* 2-column responsive */
